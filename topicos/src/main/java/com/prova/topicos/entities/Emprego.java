@@ -23,7 +23,7 @@ public class Emprego {
     private String endereco;
 
     @ManyToOne
-    @JoinColumn(name = "personagem_id")
+    @JoinColumn(name = "pessoa_id")
     @JsonBackReference
     private Pessoa pessoa;
 
